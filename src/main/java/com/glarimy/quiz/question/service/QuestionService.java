@@ -26,6 +26,7 @@ public class QuestionService {
 	}
 
 	public List<Question> fetch(String subject) {
+		System.out.println("Sample Change");
 		return repo.findBySubject(subject);
 	}
 }
